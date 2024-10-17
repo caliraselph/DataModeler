@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B366188C-8FEC-9A9D-984C-99090CF0C8C9" containerWithKeyObject="0955629F-A94B-CC31-D119-BCF757795F02" localFKIndex="06DEE5F0-EB43-5FA2-A56A-2FE9B0BC2388" name="FK_tb_agro_leitura_sensor">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-13 21:15:17 UTC</createdTime>
+<generatorID>E401292A-5182-AE57-A473-3D9F9297A9D4</generatorID>
+<ownerDesignName>Modelo_Cultivo_Sensor</ownerDesignName>
+<referredTableLongName>tb_agro_sensor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6B8E1216-7A9D-9478-F34E-4D0E063A34A4</referredTableID>
+<keyObject>48C31194-1D9D-F139-5DF3-132CB6B521D0</keyObject>
+<referredKeyID>48C31194-1D9D-F139-5DF3-132CB6B521D0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sensor_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

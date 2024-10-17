@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="35625290-7655-33A5-E228-6687B1F59A81" containerWithKeyObject="197A2540-650D-27B9-AF42-6628F552DE44" localFKIndex="0273B5A7-D85E-4D93-6E7E-5FC52BC35525" name="FK_tb_agro_registro_previsao_area">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-13 21:24:54 UTC</createdTime>
+<generatorID>DFD9871E-CA55-74FA-820F-67FB05FB31DE</generatorID>
+<ownerDesignName>Modelo_Cultivo_Sensor</ownerDesignName>
+<referredTableLongName>tb_agro_area</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D2D7E9C9-9F53-858E-236F-48356ED6F78F</referredTableID>
+<keyObject>F184FA06-8A9D-A0DE-8CE4-062AC557FCE3</keyObject>
+<referredKeyID>F184FA06-8A9D-A0DE-8CE4-062AC557FCE3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>area_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="25CFBC49-A4FB-7C61-E491-B64F342091F7" mainViewID="C7FD6FDD-78B1-D968-D4A9-41CBD67A6E27">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-13 18:02:15 UTC</createdTime>
+<ownerDesignName>Modelo_Cultivo_Sensor</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

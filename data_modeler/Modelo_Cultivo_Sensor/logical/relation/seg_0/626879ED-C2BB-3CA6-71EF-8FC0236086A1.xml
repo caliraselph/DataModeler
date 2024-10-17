@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="possui" directorySegmentName="seg_0" id="626879ED-C2BB-3CA6-71EF-8FC0236086A1">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-13 19:26:40 UTC</createdTime>
+<ownerDesignName>Modelo_Cultivo_Sensor</ownerDesignName>
+<engineerTo>
+<item key="C4305F39-26BA-1EDB-4F90-476A39ACB165" value="true"/>
+</engineerTo>
+<sourcePk>BFC3C62B-99D6-8E8F-9DDB-C8CFCF01F932</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3B29DF71-0DA2-31DE-CC3D-7F1D882B5649</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>12DBFCD3-1EC0-7C6D-EB42-4C4799692FF1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

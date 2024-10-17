@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo_Cultivo_Sensor" id="6A64AE55-FA62-C743-D7DF-8F2D729001BD" version="3.5">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-13 18:02:15 UTC</createdTime>
+<ownerDesignName>Modelo_Cultivo_Sensor</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6A64AE55-FA62-C743-D7DF-8F2D729001BD</designId>
+</OSDM_Design>

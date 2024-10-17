@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="197A2540-650D-27B9-AF42-6628F552DE44" name="tb_agro_registro_previsao">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-13 21:15:17 UTC</createdTime>
+<generatorID>C866A99E-DEDF-D7D1-3FD1-2A4EEA559BB1</generatorID>
+<ownerDesignName>Modelo_Cultivo_Sensor</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="previsao_id" id="5862E6A8-4AF1-96D4-0019-063F71B97549">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-13 21:15:17 UTC</createdTime>
+<generatorID>568B1FB0-9388-867C-AE41-393A8AF1FD13</generatorID>
+<ownerDesignName>Modelo_Cultivo_Sensor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="area_id" id="B4BB3E88-50DA-AA5A-941D-5EE1FD65E309">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-13 21:24:54 UTC</createdTime>
+<generatorID>9634E7D0-8C01-D39D-015A-1C57BEB69A3C</generatorID>
+<ownerDesignName>Modelo_Cultivo_Sensor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35625290-7655-33A5-E228-6687B1F59A81" referredColumn="C6B96E4B-D3EE-A5EF-633A-993641FB9720"/>
+</associations>
+</Column>
+<Column name="data" id="3F56699C-443F-FEB5-676B-E2A96B020BA7">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-13 21:15:17 UTC</createdTime>
+<generatorID>97B92AB2-715E-00AF-7FBE-A7A4D5BAEAF7</generatorID>
+<ownerDesignName>Modelo_Cultivo_Sensor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cant_agua" id="5ECF38B3-F3CE-2451-782D-7B049CAC5DC6">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-13 21:15:17 UTC</createdTime>
+<generatorID>CB62F084-7B3D-20D8-77BC-6E87771B2022</generatorID>
+<ownerDesignName>Modelo_Cultivo_Sensor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cant_nut_p" id="62B7FFAD-007B-48E9-ACE8-8DE8B7A1B3E1">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-13 21:15:17 UTC</createdTime>
+<generatorID>7110EA0E-79A9-2B50-16EF-F612661450F9</generatorID>
+<ownerDesignName>Modelo_Cultivo_Sensor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cant_nut_k" id="2F75A2AD-B312-AC69-0292-F51650A11A53">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-13 21:15:17 UTC</createdTime>
+<generatorID>F82E99F6-849A-1BE9-1A96-F3BBB61E539B</generatorID>
+<ownerDesignName>Modelo_Cultivo_Sensor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6561823B-E6B8-99C9-A971-9346FE2D9364" name="PK_tb_agro_registro_previsao">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-17 00:51:59 UTC</createdTime>
+<generatorID>67ADEBB8-A654-1CB2-E327-8CD3C6EA3505</generatorID>
+<ownerDesignName>Modelo_Cultivo_Sensor</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5862E6A8-4AF1-96D4-0019-063F71B97549"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0273B5A7-D85E-4D93-6E7E-5FC52BC35525" name="FK_tb_agro_registro_previsao_area">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-13 21:24:54 UTC</createdTime>
+<generatorID>DFD9871E-CA55-74FA-820F-67FB05FB31DE</generatorID>
+<ownerDesignName>Modelo_Cultivo_Sensor</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4BB3E88-50DA-AA5A-941D-5EE1FD65E309"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

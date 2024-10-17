@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="12DBFCD3-1EC0-7C6D-EB42-4C4799692FF1" name="tb_agro_leitura">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-13 18:49:49 UTC</createdTime>
+<ownerDesignName>Modelo_Cultivo_Sensor</ownerDesignName>
+<engineerTo>
+<item key="C4305F39-26BA-1EDB-4F90-476A39ACB165" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="leitura_id" id="CFBA388E-2E01-CBFC-6FFA-4CDF11D9FCAF">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-13 19:23:23 UTC</createdTime>
+<ownerDesignName>Modelo_Cultivo_Sensor</ownerDesignName>
+<engineerTo>
+<item key="C4305F39-26BA-1EDB-4F90-476A39ACB165" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="area_id" id="642CC718-1A5F-F784-EF0E-920DB9E5DEF4">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-13 19:26:40 UTC</createdTime>
+<generatorID>626879ED-C2BB-3CA6-71EF-8FC0236086A1</generatorID>
+<ownerDesignName>Modelo_Cultivo_Sensor</ownerDesignName>
+<engineerTo>
+<item key="C4305F39-26BA-1EDB-4F90-476A39ACB165" value="true"/>
+</engineerTo>
+<referedAttribute>CD8B25D9-17CB-9292-E2E7-3D2C9DB739B1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sensor_id" id="05A0AC92-ED99-B18F-2A00-461EEAEB544B">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-13 19:34:47 UTC</createdTime>
+<generatorID>E401292A-5182-AE57-A473-3D9F9297A9D4</generatorID>
+<ownerDesignName>Modelo_Cultivo_Sensor</ownerDesignName>
+<engineerTo>
+<item key="C4305F39-26BA-1EDB-4F90-476A39ACB165" value="true"/>
+</engineerTo>
+<referedAttribute>60A16E62-E388-1F7F-0E1E-19E9E9C3C4DF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_hora" id="10B7D54B-486C-A3C8-CC9A-40F0F31531EC">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-13 19:23:48 UTC</createdTime>
+<ownerDesignName>Modelo_Cultivo_Sensor</ownerDesignName>
+<engineerTo>
+<item key="C4305F39-26BA-1EDB-4F90-476A39ACB165" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_umi" id="C9B4B7DA-EF8F-EA4D-39C4-9FE27D5E71BB">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-13 19:24:14 UTC</createdTime>
+<ownerDesignName>Modelo_Cultivo_Sensor</ownerDesignName>
+<engineerTo>
+<item key="C4305F39-26BA-1EDB-4F90-476A39ACB165" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_ph" id="AFE8B607-2361-54E2-6165-A40945536777">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-13 19:24:54 UTC</createdTime>
+<ownerDesignName>Modelo_Cultivo_Sensor</ownerDesignName>
+<engineerTo>
+<item key="C4305F39-26BA-1EDB-4F90-476A39ACB165" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_nut_p" id="3A089EAD-2072-0109-34C0-8DCF147AF36C">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-13 19:25:16 UTC</createdTime>
+<ownerDesignName>Modelo_Cultivo_Sensor</ownerDesignName>
+<engineerTo>
+<item key="C4305F39-26BA-1EDB-4F90-476A39ACB165" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_nut_k" id="24789BB3-8598-1F62-7E04-00163E3AE2B0">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-13 19:25:38 UTC</createdTime>
+<ownerDesignName>Modelo_Cultivo_Sensor</ownerDesignName>
+<engineerTo>
+<item key="C4305F39-26BA-1EDB-4F90-476A39ACB165" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AE10CEE5-C1EA-C134-9577-50478B8B45DE" name="tb_agro_leitura PK">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-13 19:23:46 UTC</createdTime>
+<ownerDesignName>Modelo_Cultivo_Sensor</ownerDesignName>
+<engineerTo>
+<item key="C4305F39-26BA-1EDB-4F90-476A39ACB165" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CFBA388E-2E01-CBFC-6FFA-4CDF11D9FCAF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

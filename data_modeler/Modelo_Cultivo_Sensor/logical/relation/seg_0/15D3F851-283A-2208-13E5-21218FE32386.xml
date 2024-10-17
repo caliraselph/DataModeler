@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tipifica" directorySegmentName="seg_0" id="15D3F851-283A-2208-13E5-21218FE32386">
+<createdBy>ccast</createdBy>
+<createdTime>2024-10-13 18:56:26 UTC</createdTime>
+<ownerDesignName>Modelo_Cultivo_Sensor</ownerDesignName>
+<engineerTo>
+<item key="C4305F39-26BA-1EDB-4F90-476A39ACB165" value="true"/>
+</engineerTo>
+<sourcePk>39593D63-A8A1-8DAC-CEEC-209D58AA4796</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>970F733E-7AB5-3AF3-F0D1-BB570C1FE355</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0FE891C3-7DC3-BF30-ECE9-B7582B41079F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
