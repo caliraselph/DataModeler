@@ -130,6 +130,9 @@ Em conclusão:
 Este projeto ajudará o produtor a tomar decisões informadas sobre a irrigação e o uso de nutrientes, otimizando recursos e melhorando a produção.
 **
 
+<img width="697" alt="image" src="https://github.com/user-attachments/assets/acf49da1-23ec-4136-b162-001049282461">
+
+*MODELO MER PARA LEITURA DE NUTRIENTES DE CULTIVO
 
 ## 📁 Estrutura de pastas
 
